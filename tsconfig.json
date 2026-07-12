@@ -3,15 +3,15 @@
     // Environment setup & latest features
     "lib": ["ESNext"],
     "target": "ESNext",
-    "module": "ESNext",
+    "module": "NodeNext",
     "moduleDetection": "force",
     "outDir": "dist",
     "jsx": "react-jsx",
     "allowJs": true,
     "types": ["bun"],
 
-    // Bundler mode
-    "moduleResolution": "bundler",
+    // ESM mode
+    "moduleResolution": "NodeNext",
     "noEmit": false,
     "declaration": true,
     "declarationMap": true,
