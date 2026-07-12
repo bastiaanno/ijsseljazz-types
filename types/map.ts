@@ -1,4 +1,4 @@
-import { Timestamp, GeoPoint } from "firebase/firestore";
+import type { Timestamp, GeoPoint } from "firebase/firestore";
 
 export interface LocationTypeIcon {
   sf_symbol?: string;
