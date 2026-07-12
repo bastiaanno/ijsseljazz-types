@@ -1,0 +1,30 @@
+{
+  "name": "ijsseljazz-types",
+  "version": "1.0.0",
+  "description": "Shared TypeScript type definitions for IJsselJazz app and CMS",
+  "module": "index.ts",
+  "types": "index.ts",
+  "type": "module",
+  "private": true,
+  "sideEffects": false,
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build": "tsc",
+    "prepare": "bun install"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5"
+  },
+  "peerDependencies": {
+    "firebase": "^10 || ^11 || ^12"
+  },
+  "exports": {
+    ".": "./index.ts",
+    "./types/*": "./types/*"
+  },
+  "files": [
+    "index.ts",
+    "types/"
+  ]
+}
