@@ -1,4 +1,4 @@
-import type { BadgeTone } from "./ui";
+import type { BadgeTone } from "./ui.js";
 
 export interface HomeNavItemBadge {
   count: number;

@@ -1,15 +1,15 @@
-import type { AppData } from "./app";
-import type { Artist } from "./content";
-import type { Facility } from "./map";
-import type { FestivalData } from "./content";
-import type { HomeNavItem } from "./navigation";
-import type { HomeSection } from "./navigation";
-import type { Location } from "./map";
-import type { LocationType } from "./map";
-import type { MapAsset } from "./map";
-import type { NavigationData } from "./navigation";
-import type { Notification } from "./notifications";
-import type { Token } from "./tokens";
+import type { AppData } from "./app.js";
+import type { Artist } from "./content.js";
+import type { Facility } from "./map.js";
+import type { FestivalData } from "./content.js";
+import type { HomeNavItem } from "./navigation.js";
+import type { HomeSection } from "./navigation.js";
+import type { Location } from "./map.js";
+import type { LocationType } from "./map.js";
+import type { MapAsset } from "./map.js";
+import type { NavigationData } from "./navigation.js";
+import type { Notification } from "./notifications.js";
+import type { Token } from "./tokens.js";
 
 /**
  * Root Schema mapping your full Firestore database structure.
