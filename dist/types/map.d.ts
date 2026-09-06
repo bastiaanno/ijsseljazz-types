@@ -12,6 +12,7 @@ export interface LocationType {
     icon?: LocationTypeIcon;
     showMore?: boolean;
     listTitle?: string;
+    visible?: boolean;
 }
 export interface Location {
     id: string;
