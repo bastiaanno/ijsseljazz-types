@@ -10,12 +10,11 @@
   "scripts": {
     "typecheck": "tsc --noEmit",
     "build": "tsc",
-    "prepublishOnly": "bun run build",
-    "prepare": "bun install"
+    "prepublishOnly": "bun run build"
   },
   "devDependencies": {
     "@types/bun": "latest",
-    "typescript": "^5"
+    "typescript": "^5.9.3"
   },
   "peerDependencies": {
     "firebase": "^10 || ^11 || ^12"
